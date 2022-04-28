@@ -1,0 +1,238 @@
+
+
+/* Device = Desktops */
+@media (min-width: 1281px) {
+    .btnMenu{
+        display: none;
+        
+    }
+
+.active a{
+    color: #000;
+}
+ .active{
+    border-bottom: 2px solid #000;
+    color: #000;
+ }
+    .cabecalho {
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px;
+        width: 100%;
+        position: fixed;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .logoT2CGroup {
+        height: 5vh;
+        width: 10vw;
+    }
+
+    .navbar {
+        display: flex;
+        margin-right: 82px;
+        gap: 32px;
+    }
+
+    .navbar-item {
+        font-family: 'Space Grotesk', sans-serif;
+        color: #FFFFFF;
+        font-weight: 500, medium;
+        font-size: 16px;
+
+    }
+
+
+}
+
+/* Device = Laptops, Desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .btnMenu{
+        display: none;
+        
+    }
+    .active a{
+        color: #000;
+    }
+     .active{
+        border-bottom: 2px solid #000;
+        color: #000;
+     }
+    .cabecalho {
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 16px;
+        width: 100%;
+        position: fixed;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .logoT2CGroup {
+        width: 20vw;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 32px;
+    }
+
+    .navbar-item {
+        font-family: 'Space Grotesk', sans-serif;
+        color: #FFFFFF;
+        font-weight: 500, medium;
+        font-size: 16px;
+
+    }
+
+
+}
+
+/* Device = Tablets, Ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .btnMenu{
+        display: none;
+        
+    }
+    .active a{
+        color: #000;
+    }
+     .active{
+        border-bottom: 2px solid #000;
+        color: #000;
+     }
+    .cabecalho {
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 16px;
+        width: 100%;
+        position: fixed;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .logoT2CGroup {
+        width: 20vw;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar-item {
+        font-family: 'Space Grotesk', sans-serif;
+        color: #FFFFFF;
+        font-weight: 500, medium;
+        font-size: 16px;
+
+    }
+
+    
+
+
+}
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .btnMenu{
+        display: none;
+        
+    }
+    .active a{
+        color: #000;
+    }
+     .active{
+        border-bottom: 2px solid #000;
+        color: #000;
+     }
+    .cabecalho {
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding: 16px;
+        width: 100%;
+        position: fixed;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .logoT2CGroup {
+        width:20vw;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 15px;
+    }
+
+    .navbar-item {
+        font-family: 'Space Grotesk', sans-serif;
+        color: #FFFFFF;
+        font-weight: 500, medium;
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+/*Device = Most of the Smartphones Mobiles (Portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .btnMenu img {
+        width: 6vw;
+        margin: 20px 15px;
+    }
+
+    .cabecalho {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(273.36deg, #1681f4 0%, #2a8df7 100%);
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: transform 200ms linear;
+    }
+
+    .menu_open {
+        transform: translateX(0);
+    }
+
+    .menu-item {
+        background: linear-gradient(273.36deg, #1681f4 0%, #2a8df7 100%);
+        border-bottom: 1px solid rgb(158, 197, 246);
+        padding: 20px 15px;
+    }
+
+    .menu-item-action {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .logoT2CGroup {
+        width: 30vw;
+        margin: 15px 20px;
+
+
+    }
+
+  
+}
