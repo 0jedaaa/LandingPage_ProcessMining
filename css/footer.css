@@ -1,57 +1,113 @@
 /* Device = Desktops */
 @media (min-width: 1281px) {
-
-
-    .rodape {
-        padding: 32px;
-
+    .rodape{    
+        border-top: 0.5px solid #ffffff38;
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
     }
 
-    .rodape-img {
-        height: 72px;
-        display: block;
-        margin: 0 auto;
-
+    .icons{
+       display: flex;
+       justify-items: center;
+       justify-content: space-between;
     }
+.icon-redes{
 
+    background-color: #0354ce;
+    
+}
+.icon-redes li{
+    display: inline-block;
+}
+.icon-redes img{
+    width: 20px;
+   margin: 15px;
 }
 
+.icon-redes img:hover{
+    transform: scale(1.2, 1);
+    cursor: pointer;
+}
+.icon-logo{
+    padding-top: 10px;
+}
+.icon-logo img{
+    width: 160px;
+}   
+
+}
 /* Device = Laptops, Desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
-
-
-
-    .rodape {
-        padding: 32px;
-
+    .rodape{    
+        border-top: 0.5px solid #ffffff38;
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
     }
 
-    .rodape-img {
-        height: 72px;
-        display: block;
-        margin: 0 auto;
-
+    .icons{
+       display: flex;
+       justify-items: center;
+       justify-content: space-between;
     }
-
-
+.icon-redes{
+    border-left: 0.5px solid #ffffff88;
+    background-color: #0354ce;
+    
+}
+.icon-redes li{
+    display: inline-block;
+}
+.icon-redes img{
+    width: 20px;
+   margin: 20px;
 }
 
+.icon-redes img:hover{
+    transform: scale(1.2, 1);
+    cursor: pointer;
+}
+.icon-logo{
+    padding-top: 10px;
+}
+.icon-logo img{
+    width: 180px;
+}   
+
+}
 /* Device = Tablets, Ipads (portrait)*/
 @media (min-width: 768px) and (max-width: 1024px) {
 
-
-    .rodape {
-        padding: 32px;
-
+    .rodape{    
+        border-top: 0.5px solid #ffffff38;
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
     }
 
-    .rodape-img {
-        height: 72px;
-        display: block;
-        margin: 0 auto;
-
+    .icons{
+       display: flex;
+       justify-items: center;
+       justify-content: space-between;
     }
+.icon-redes{
+    border-left: 0.5px solid #ffffff88;
+    background-color: #0354ce;
+    
+}
+.icon-redes li{
+    display: inline-block;
+}
+.icon-redes img{
+    width: 20px;
+   margin: 20px;
+}
 
+.icon-redes img:hover{
+    transform: scale(1.2, 1);
+    cursor: pointer;
+}
+.icon-logo{
+    padding-top: 10px;
+}
+.icon-logo img{
+    width: 180px;
+}   
 
 
 
@@ -60,38 +116,78 @@
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
 
-
-
-    .rodape {
-        padding: 32px;
-
+    .rodape{    
+        border-top: 0.5px solid #ffffff38;
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
     }
 
-    .rodape-img {
-        height: 72px;
-        display: block;
-        margin: 0 auto;
-
+    .icons{
+       display: flex;
+       justify-items: center;
+       justify-content: space-between;
     }
+.icon-redes{
+    border-left: 0.5px solid #ffffff88;
+    background-color: #0354ce;
+    
+}
+.icon-redes li{
+    display: inline-block;
+}
+.icon-redes img{
+    width: 20px;
+   margin: 20px;
+}
 
+.icon-redes img:hover{
+    transform: scale(1.2, 1);
+    cursor: pointer;
+}
+.icon-logo{
+    padding-top: 10px;
+}
+.icon-logo img{
+    width: 180px;
+}   
 
 
 }
 
 /*Device = Most of the Smartphones Mobiles (Portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
-
-    .rodape {
-        padding: 32px;
-
+    .rodape{    
+        border-top: 0.5px solid #ffffff38;
+        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
     }
 
-    .rodape-img {
-        height: 72px;
-        display: block;
-        margin: 0 auto;
-
+    .icons{
+       display: flex;
+       justify-items: center;
+       justify-content: space-between;
     }
+.icon-redes{
+    border-left: 0.5px solid #ffffff88;
+    background-color: #0354ce;
+    
+}
+.icon-redes li{
+    display: inline-block;
+}
+.icon-redes img{
+    width: 20px;
+   margin: 20px;
+}
+
+.icon-redes img:hover{
+    transform: scale(1.2, 1);
+    cursor: pointer;
+}
+.icon-logo{
+    padding-top: 10px;
+}
+.icon-logo img{
+    width: 180px;
+}   
 
 
 
