@@ -1,7 +1,7 @@
 const $menu = document.querySelector('.menu')
 const $btnMenuOpen = document.querySelector('.btnMenu_open')
 const $btnMenuClose = document.querySelector('.btnMenu_close')
-const navItem = document.querySelectorAll('li'); 
+const navItem = document.querySelectorAll('.menu-item'); 
 
 $btnMenuOpen.addEventListener('click', function(){
  $menu.classList.add('menu_open')

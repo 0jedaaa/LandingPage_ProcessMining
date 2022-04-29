@@ -1,196 +1,334 @@
 /* Device = Desktops */
 @media (min-width: 1281px) {
-    .rodape{    
-        border-top: 0.5px solid #ffffff38;
-        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
-    }
-
-    .icons{
-       display: flex;
-       justify-items: center;
-       justify-content: space-between;
-    }
-.icon-redes{
-
-    background-color: #0354ce;
     
-}
-.icon-redes li{
-    display: inline-block;
-}
-.icon-redes img{
-    width: 20px;
-   margin: 15px;
-}
+    .rodape{
+        background-color: #fff;
+        height: 30vh;
+      }
+      .conteudo-block-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      .card-footer {
+        border-radius: 5px;
+        padding: 25px;
+        margin: 20px;
+        width: 400px;
+       
+    }
+    .conteudo-footer-text-icon li{
+        display: inline-block;
 
-.icon-redes img:hover{
-    transform: scale(1.2, 1);
-    cursor: pointer;
-}
-.icon-logo{
-    padding-top: 10px;
-}
-.icon-logo img{
-    width: 160px;
-}   
-
+    }
+    .conteudo-paragrafo-footer {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 16px;
+    }
+    .conteudo-paragrafo-footer:hover{
+        font-size: 17px;
+        
+    }
+    .item-footer{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000;
+        border-top: 0.5px solid #000000;
+        width: 2vw;
+        padding-top:10px;
+        margin-bottom: 16px;
+    }
+    .img-icons{
+        width: 2vw;
+        padding-right: 10px;
+    }
+    .img-icons:hover{
+        width: 2.1vw;
+      
+    }
+    .footer-final{
+        background-color:rgba(255, 255, 255, 0.913);
+        height: 2.5vw;
+    }
+    .conteudo-paragrafo-final{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: #000;
+        padding-top: 16px;
+        text-align: center;
+    }
 }
 /* Device = Laptops, Desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .rodape{    
-        border-top: 0.5px solid #ffffff38;
-        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+   
+    .rodape{
+        background-color: #fff;
+        height: 30vh;
+        width: 100%;
+      }
+      .conteudo-block-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .icons{
-       display: flex;
-       justify-items: center;
-       justify-content: space-between;
+      .card-footer {
+        border-radius: 5px;
+        padding: 25px;
+        margin: 20px;
+        width: 400px;
+       
     }
-.icon-redes{
-    border-left: 0.5px solid #ffffff88;
-    background-color: #0354ce;
-    
-}
-.icon-redes li{
-    display: inline-block;
-}
-.icon-redes img{
-    width: 20px;
-   margin: 20px;
-}
+    .conteudo-footer-text-icon li{
+        display: inline-block;
 
-.icon-redes img:hover{
-    transform: scale(1.2, 1);
-    cursor: pointer;
-}
-.icon-logo{
-    padding-top: 10px;
-}
-.icon-logo img{
-    width: 180px;
-}   
+    }
+    .conteudo-paragrafo-footer {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 16px;
+    }
+    .conteudo-paragrafo-footer:hover{
+        font-size: 17px;
+        
+    }
+    .item-footer{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000;
+        border-top: 0.5px solid #000000;
+        width: 2vw;
+        padding-top:10px;
+        margin-bottom: 16px;
+    }
+    .img-icons{
+        width: 3vw;
+        padding-right: 10px;
+    }
+    .img-icons:hover{
+        width: 3.1vw;
+      
+    }
+    .footer-final{
+        background-color:rgba(255, 255, 255, 0.913);
+       
+      
+    }
+    .conteudo-paragrafo-final{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: #000;
+        padding-top: 16px;
+        text-align: center;
+    }
 
 }
 /* Device = Tablets, Ipads (portrait)*/
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .rodape{    
-        border-top: 0.5px solid #ffffff38;
-        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+    .rodape{
+        background-color: #fff;
+        height: 30vh;
+      }
+      .conteudo-block-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .icons{
-       display: flex;
-       justify-items: center;
-       justify-content: space-between;
+      .card-footer {
+        border-radius: 5px;
+        padding: 25px;
+        margin: 20px;
+        width: 400px;
+       
     }
-.icon-redes{
-    border-left: 0.5px solid #ffffff88;
-    background-color: #0354ce;
-    
-}
-.icon-redes li{
-    display: inline-block;
-}
-.icon-redes img{
-    width: 20px;
-   margin: 20px;
-}
+    .conteudo-footer-text-icon li{
+        display: inline-block;
 
-.icon-redes img:hover{
-    transform: scale(1.2, 1);
-    cursor: pointer;
-}
-.icon-logo{
-    padding-top: 10px;
-}
-.icon-logo img{
-    width: 180px;
-}   
-
-
+    }
+    .conteudo-paragrafo-footer {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 16px;
+    }
+    .conteudo-paragrafo-footer:hover{
+        font-size: 17px;
+        
+    }
+    .item-footer{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000;
+        border-top: 0.5px solid #000000;
+        width: 2vw;
+        padding-top:10px;
+        margin-bottom: 16px;
+    }
+    .img-icons{
+        width: 3vw;
+        padding-right: 10px;
+    }
+    .img-icons:hover{
+        width: 3.1vw;
+     
+    }
+    .footer-final{
+        background-color:rgba(255, 255, 255, 0.913);
+        height: 2.5vw;
+    }
+    .conteudo-paragrafo-final{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: #000;
+        padding-top: 16px;
+        text-align: center;
+    }
 
 }
 
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
 
-    .rodape{    
-        border-top: 0.5px solid #ffffff38;
-        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+ 
+    .rodape{
+        background-color: #fff;
+        height: 30vh;
+      }
+      .conteudo-block-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .icons{
-       display: flex;
-       justify-items: center;
-       justify-content: space-between;
+      .card-footer {
+        border-radius: 5px;
+        padding: 25px;
+        margin: 20px;
+        width: 400px;
+       
     }
-.icon-redes{
-    border-left: 0.5px solid #ffffff88;
-    background-color: #0354ce;
-    
-}
-.icon-redes li{
-    display: inline-block;
-}
-.icon-redes img{
-    width: 20px;
-   margin: 20px;
-}
+    .conteudo-footer-text-icon li{
+        display: inline-block;
 
-.icon-redes img:hover{
-    transform: scale(1.2, 1);
-    cursor: pointer;
-}
-.icon-logo{
-    padding-top: 10px;
-}
-.icon-logo img{
-    width: 180px;
-}   
-
+    }
+    .conteudo-paragrafo-footer {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 16px;
+    }
+    .conteudo-paragrafo-footer:hover{
+        font-size: 17px;
+        
+    }
+    .item-footer{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000;
+        border-top: 0.5px solid #000000;
+        width: 2vw;
+        padding-top:10px;
+        margin-bottom: 16px;
+    }
+    .img-icons{
+        width: 4vw;
+        padding-right: 10px;
+    }
+    .img-icons:hover{
+        width: 4.1vw;
+        
+    }
+    .footer-final{
+        background-color:rgba(255, 255, 255, 0.913);
+        height: 2.5vw;
+    }
+    .conteudo-paragrafo-final{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: #000;
+        padding-top: 16px;
+        text-align: center;
+    }
 
 }
 
 /*Device = Most of the Smartphones Mobiles (Portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
-    .rodape{    
-        border-top: 0.5px solid #ffffff38;
-        background: linear-gradient(273.36deg, #0268d6 0%, #2a8df7 100%);
+ 
+    .rodape{
+        background-color: #fff;
+        height: 30vh;
+      }
+      .conteudo-block-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
-    .icons{
-       display: flex;
-       justify-items: center;
-       justify-content: space-between;
+      .card-footer {
+        border-radius: 5px;
+        padding: 25px;
+        margin: 20px;
+        width: 400px;
+       
     }
-.icon-redes{
-    border-left: 0.5px solid #ffffff88;
-    background-color: #0354ce;
-    
-}
-.icon-redes li{
-    display: inline-block;
-}
-.icon-redes img{
-    width: 20px;
-   margin: 20px;
-}
+    .conteudo-footer-text-icon li{
+        display: inline-block;
 
-.icon-redes img:hover{
-    transform: scale(1.2, 1);
-    cursor: pointer;
-}
-.icon-logo{
-    padding-top: 10px;
-}
-.icon-logo img{
-    width: 180px;
-}   
-
-
-
-
+    }
+    .conteudo-paragrafo-footer {
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 16px;
+    }
+    .conteudo-paragrafo-footer:hover{
+        font-size: 17px;
+        
+    }
+    .item-footer{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000;
+        border-top: 0.5px solid #000000;
+        width: 2vw;
+        padding-top:10px;
+        margin-bottom: 16px;
+    }
+    .img-icons{
+        width: 4vw;
+        padding-right: 10px;
+    }
+    .img-icons:hover{
+        width: 4.1vw;
+       
+    }
+    .footer-final{
+        background-color:rgba(255, 255, 255, 0.913);
+        height: 2.5vw;
+    }
+    .conteudo-paragrafo-final{
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: #000;
+        padding-top: 16px;
+        text-align: center;
+    }
 
 }
